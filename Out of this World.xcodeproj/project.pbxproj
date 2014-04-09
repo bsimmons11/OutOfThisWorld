@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236F262018F5AD030093EFBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236F261F18F5AD030093EFBD /* Foundation.framework */; };
+		236F262218F5AD030093EFBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236F262118F5AD030093EFBD /* CoreGraphics.framework */; };
+		236F262418F5AD030093EFBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236F262318F5AD030093EFBD /* UIKit.framework */; };
+		236F262A18F5AD030093EFBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 236F262818F5AD030093EFBD /* InfoPlist.strings */; };
+		236F262C18F5AD030093EFBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F262B18F5AD030093EFBD /* main.m */; };
+		236F263018F5AD030093EFBD /* OWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F262F18F5AD030093EFBD /* OWAppDelegate.m */; };
+		236F263318F5AD030093EFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236F263118F5AD030093EFBD /* Main.storyboard */; };
+		236F263618F5AD030093EFBD /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F263518F5AD030093EFBD /* OWViewController.m */; };
+		236F263818F5AD030093EFBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236F263718F5AD030093EFBD /* Images.xcassets */; };
+		236F263F18F5AD030093EFBD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236F263E18F5AD030093EFBD /* XCTest.framework */; };
+		236F264018F5AD030093EFBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236F261F18F5AD030093EFBD /* Foundation.framework */; };
+		236F264118F5AD030093EFBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236F262318F5AD030093EFBD /* UIKit.framework */; };
+		236F264918F5AD030093EFBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 236F264718F5AD030093EFBD /* InfoPlist.strings */; };
+		236F264B18F5AD030093EFBD /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F264A18F5AD030093EFBD /* Out_of_this_WorldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		236F264218F5AD030093EFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 236F261418F5AD030093EFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 236F261B18F5AD030093EFBD;
+			remoteInfo = "Out of this World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		236F261C18F5AD030093EFBD /* Out of this World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Out of this World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		236F261F18F5AD030093EFBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		236F262118F5AD030093EFBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		236F262318F5AD030093EFBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		236F262718F5AD030093EFBD /* Out of this World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this World-Info.plist"; sourceTree = "<group>"; };
+		236F262918F5AD030093EFBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		236F262B18F5AD030093EFBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		236F262D18F5AD030093EFBD /* Out of this World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Out of this World-Prefix.pch"; sourceTree = "<group>"; };
+		236F262E18F5AD030093EFBD /* OWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWAppDelegate.h; sourceTree = "<group>"; };
+		236F262F18F5AD030093EFBD /* OWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWAppDelegate.m; sourceTree = "<group>"; };
+		236F263218F5AD030093EFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		236F263418F5AD030093EFBD /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
+		236F263518F5AD030093EFBD /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
+		236F263718F5AD030093EFBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		236F263D18F5AD030093EFBD /* Out of this WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		236F263E18F5AD030093EFBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		236F264618F5AD030093EFBD /* Out of this WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this WorldTests-Info.plist"; sourceTree = "<group>"; };
+		236F264818F5AD030093EFBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		236F264A18F5AD030093EFBD /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		236F261918F5AD030093EFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236F262218F5AD030093EFBD /* CoreGraphics.framework in Frameworks */,
+				236F262418F5AD030093EFBD /* UIKit.framework in Frameworks */,
+				236F262018F5AD030093EFBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236F263A18F5AD030093EFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236F263F18F5AD030093EFBD /* XCTest.framework in Frameworks */,
+				236F264118F5AD030093EFBD /* UIKit.framework in Frameworks */,
+				236F264018F5AD030093EFBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236F261318F5AD020093EFBD = {
+			isa = PBXGroup;
+			children = (
+				236F262518F5AD030093EFBD /* Out of this World */,
+				236F264418F5AD030093EFBD /* Out of this WorldTests */,
+				236F261E18F5AD030093EFBD /* Frameworks */,
+				236F261D18F5AD030093EFBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		236F261D18F5AD030093EFBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				236F261C18F5AD030093EFBD /* Out of this World.app */,
+				236F263D18F5AD030093EFBD /* Out of this WorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		236F261E18F5AD030093EFBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				236F261F18F5AD030093EFBD /* Foundation.framework */,
+				236F262118F5AD030093EFBD /* CoreGraphics.framework */,
+				236F262318F5AD030093EFBD /* UIKit.framework */,
+				236F263E18F5AD030093EFBD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		236F262518F5AD030093EFBD /* Out of this World */ = {
+			isa = PBXGroup;
+			children = (
+				236F262E18F5AD030093EFBD /* OWAppDelegate.h */,
+				236F262F18F5AD030093EFBD /* OWAppDelegate.m */,
+				236F263118F5AD030093EFBD /* Main.storyboard */,
+				236F263418F5AD030093EFBD /* OWViewController.h */,
+				236F263518F5AD030093EFBD /* OWViewController.m */,
+				236F263718F5AD030093EFBD /* Images.xcassets */,
+				236F262618F5AD030093EFBD /* Supporting Files */,
+			);
+			path = "Out of this World";
+			sourceTree = "<group>";
+		};
+		236F262618F5AD030093EFBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				236F262718F5AD030093EFBD /* Out of this World-Info.plist */,
+				236F262818F5AD030093EFBD /* InfoPlist.strings */,
+				236F262B18F5AD030093EFBD /* main.m */,
+				236F262D18F5AD030093EFBD /* Out of this World-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		236F264418F5AD030093EFBD /* Out of this WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				236F264A18F5AD030093EFBD /* Out_of_this_WorldTests.m */,
+				236F264518F5AD030093EFBD /* Supporting Files */,
+			);
+			path = "Out of this WorldTests";
+			sourceTree = "<group>";
+		};
+		236F264518F5AD030093EFBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				236F264618F5AD030093EFBD /* Out of this WorldTests-Info.plist */,
+				236F264718F5AD030093EFBD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		236F261B18F5AD030093EFBD /* Out of this World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236F264E18F5AD030093EFBD /* Build configuration list for PBXNativeTarget "Out of this World" */;
+			buildPhases = (
+				236F261818F5AD030093EFBD /* Sources */,
+				236F261918F5AD030093EFBD /* Frameworks */,
+				236F261A18F5AD030093EFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Out of this World";
+			productName = "Out of this World";
+			productReference = 236F261C18F5AD030093EFBD /* Out of this World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		236F263C18F5AD030093EFBD /* Out of this WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236F265118F5AD030093EFBD /* Build configuration list for PBXNativeTarget "Out of this WorldTests" */;
+			buildPhases = (
+				236F263918F5AD030093EFBD /* Sources */,
+				236F263A18F5AD030093EFBD /* Frameworks */,
+				236F263B18F5AD030093EFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				236F264318F5AD030093EFBD /* PBXTargetDependency */,
+			);
+			name = "Out of this WorldTests";
+			productName = "Out of this WorldTests";
+			productReference = 236F263D18F5AD030093EFBD /* Out of this WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		236F261418F5AD030093EFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Lorux;
+				TargetAttributes = {
+					236F263C18F5AD030093EFBD = {
+						TestTargetID = 236F261B18F5AD030093EFBD;
+					};
+				};
+			};
+			buildConfigurationList = 236F261718F5AD030093EFBD /* Build configuration list for PBXProject "Out of this World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 236F261318F5AD020093EFBD;
+			productRefGroup = 236F261D18F5AD030093EFBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				236F261B18F5AD030093EFBD /* Out of this World */,
+				236F263C18F5AD030093EFBD /* Out of this WorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		236F261A18F5AD030093EFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236F263818F5AD030093EFBD /* Images.xcassets in Resources */,
+				236F262A18F5AD030093EFBD /* InfoPlist.strings in Resources */,
+				236F263318F5AD030093EFBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236F263B18F5AD030093EFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236F264918F5AD030093EFBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236F261818F5AD030093EFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236F263018F5AD030093EFBD /* OWAppDelegate.m in Sources */,
+				236F263618F5AD030093EFBD /* OWViewController.m in Sources */,
+				236F262C18F5AD030093EFBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236F263918F5AD030093EFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236F264B18F5AD030093EFBD /* Out_of_this_WorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		236F264318F5AD030093EFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 236F261B18F5AD030093EFBD /* Out of this World */;
+			targetProxy = 236F264218F5AD030093EFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		236F262818F5AD030093EFBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236F262918F5AD030093EFBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		236F263118F5AD030093EFBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236F263218F5AD030093EFBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		236F264718F5AD030093EFBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236F264818F5AD030093EFBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		236F264C18F5AD030093EFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		236F264D18F5AD030093EFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		236F264F18F5AD030093EFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
+				INFOPLIST_FILE = "Out of this World/Out of this World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		236F265018F5AD030093EFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
+				INFOPLIST_FILE = "Out of this World/Out of this World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		236F265218F5AD030093EFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Out of this World.app/Out of this World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Out of this WorldTests/Out of this WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		236F265318F5AD030093EFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Out of this World.app/Out of this World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Out of this World/Out of this World-Prefix.pch";
+				INFOPLIST_FILE = "Out of this WorldTests/Out of this WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236F261718F5AD030093EFBD /* Build configuration list for PBXProject "Out of this World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236F264C18F5AD030093EFBD /* Debug */,
+				236F264D18F5AD030093EFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		236F264E18F5AD030093EFBD /* Build configuration list for PBXNativeTarget "Out of this World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236F264F18F5AD030093EFBD /* Debug */,
+				236F265018F5AD030093EFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		236F265118F5AD030093EFBD /* Build configuration list for PBXNativeTarget "Out of this WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236F265218F5AD030093EFBD /* Debug */,
+				236F265318F5AD030093EFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 236F261418F5AD030093EFBD /* Project object */;
+}
