@@ -9,6 +9,7 @@
 #import "OWOuterSpaceTableViewController.h"
 #import "AstronomicalData.h"
 #import "OWSpaceObject.h"
+#import "OWSpaceImageViewController.h"
 
 @interface OWOuterSpaceTableViewController ()
 
@@ -42,21 +43,22 @@
         OWSpaceObject *planet = [[OWSpaceObject alloc] initWithData:planetData andImage:[UIImage imageNamed:imageName]];
         [self.planets addObject:planet];
     }
-    
-//    NSMutableDictionary *myDictionary = [[NSMutableDictionary alloc] init];
-//    NSString *firstColor = @"red";
-//    [myDictionary setObject:firstColor forKey:@"firetruck color"];
-//    [myDictionary setObject:@"blue" forKey:@"ocean color"];
-//    [myDictionary setObject:@"yellow" forKey:@"star color"];
-//    NSLog(@"%@", myDictionary);
-//    
-//    NSString *blueString = [myDictionary objectForKey:@"ocean color"];
-//    NSLog(@"%@", blueString);
-    
-    NSNumber *myNumber = [NSNumber numberWithInt:5];
-    NSLog(@"%@", myNumber);
 
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([sender isKindOfClass:[UITableViewCell class]]) {
+        if ([segue.destinationViewController isKindOfClass:[OWSpaceImageViewController class]])
+        {
+            OWSpaceImageViewController *nextViewController = segue.destinationViewController;
+            NSIndexPath *path = [self.tableView indexPathForCell:sender];
+            OWSpaceObject *selectedObject = self.planets[path.row];
+            nextViewController.spaceObject = selectedObject;
+        }
+    }
+}
+
 
 - (void)didReceiveMemoryWarning
 {
